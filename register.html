@@ -15,24 +15,40 @@
 					type= "text"
 					placeholder="Username"
 				/>
-				<div class="password">
+				
 				<input
 					class="control"
 					id="password"
 					type="password"
 					placeholder="Password"
 				/>
+                <input
+					spellcheck="false"
+					class= "control"
+					type= "text"
+					placeholder="ID"
+				/>
+                <input
+                spellcheck="false"
+                class= "control"
+                type= "date"
+                placeholder="DOB"
+            />
+            <select class="control">
+                <option value="">Select Gender</option>
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+                </select>
+
+
 				<button
 					class="toggle"
 					type="password"
 					onclick="togglePassword(this)"
 				></button>
-				</div>
+				
 					<button class="control">LOGIN</button>
 				</form>
-				<div class="register">
-					<a href="register.html">Register</a>
-				</div>
 			</div>
 		<script type="text/javascript" src="main.js"></script>
 	</body>

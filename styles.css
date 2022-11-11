@@ -17,12 +17,12 @@ body {
 	display: grid;
 	place-items: center;
 	margin: 0;
-	background-image: url("image/IT.jpg");
+	background-image: url("image/cod3.jpg.crdownload");
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: Gill Sans MT;
 	color: #3a334e;
-	animation: rotate 1s infinite alternate linear;
+	animation: rotate 5s infinite alternate linear;
 }
 
 button {
@@ -42,13 +42,14 @@ button {
 	font-family: inherit;
 	font-size: 16px;
 	transition: 0.4s;
+	margin-top: 10px;
 }
 
 .login-card {
 	width: 400px;
-	padding: 100px 30px 64px;
+	padding: 40px 30px 34px;
 	border-radius: 1.25rem;
-	background-color:rgba(123, 0, 0, .7);
+	background-color:rgba(123, 1, 0, .7);
 	text-align: center;
 }
 
@@ -112,4 +113,18 @@ button {
 }
 h1{
 color: whitesmoke;
+}
+
+h1:hover {
+	transform: scale(2, 2);
+}
+
+h3:hover {
+	transform: scale(1.5, 1.5);
+}
+.register{
+	margin-top: 3%;
+}
+label{
+	color: white;
 }
