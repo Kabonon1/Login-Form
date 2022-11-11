@@ -17,7 +17,7 @@ body {
 	display: grid;
 	place-items: center;
 	margin: 0;
-	background-image: url("background.svg");
+	background-image: url("image/IT.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: Gill Sans MT;
@@ -48,7 +48,7 @@ button {
 	width: 400px;
 	padding: 100px 30px 64px;
 	border-radius: 1.25rem;
-	background-color: crimson;
+	background-color:rgba(123, 0, 0, .7);
 	text-align: center;
 }
 
@@ -58,7 +58,7 @@ button {
 	margin: 0 0 6px;
 }
 .login-card > h3 {
-	color: cyan;
+	color: white;
 	margin: 0 0 40px;
 	font-weight: 500;
 	font-size: 1rem;
@@ -71,7 +71,7 @@ button {
 }
 
 .login-form input.control::placeholder {
-	color: greenyellow;
+	color: black;
 }
 
 .login-form > button.control {
@@ -79,8 +79,8 @@ button {
 	width: 100%;
 	height: 56px;
 	padding: 0 16px;
-	background: #990000;
-	color: #3bb300;
+	background: black;
+	color: white;
 	border: 0;
 	font-family: inherit;
 	font-size: 1rem;
@@ -109,4 +109,7 @@ button {
 
 .toggle.showing {
 	background-image: url("hide.svg");
+}
+h1{
+color: whitesmoke;
 }
